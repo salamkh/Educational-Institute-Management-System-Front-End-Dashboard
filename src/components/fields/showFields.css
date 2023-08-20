@@ -1,0 +1,8 @@
+.containerItemField{
+    width: 100%;
+    padding: 8px;
+    box-shadow: 0px 0 7px #6d4480;
+        z-index: 15;
+        margin-bottom: 10px;
+        
+}

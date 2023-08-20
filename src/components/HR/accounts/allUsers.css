@@ -1,0 +1,87 @@
+.allcard{
+    position: relative;
+    width: 100%;
+    height:fit-content;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px rgba(61, 32, 61, 0.5);
+    transition: 0.5s;
+    margin-bottom:10px;
+    direction:rtl;
+    padding:10px;
+color:#973c57
+    }
+    
+    /* .tcard:hover{
+    height: 350px;
+    } */
+    
+    .tBox{
+    /* position:absolute; */
+    /* width: 50%;
+    height: 110px;
+    /* left: 50%;
+    top:-50px; */
+    /* transform: translateX(-50%); */
+    /* background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px #245268;
+    overflow: hidden;
+    background: url('../../../img/360_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg') center center;
+    background-size: cover; */
+    
+    }
+/*     
+    .tcard:hover .tBox{
+        width: 70%;
+        height: 200px;
+    } */
+    
+    
+    .picRight{
+        direction:"rtl";
+    }
+    .imTec{
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+        object-fit: cover;
+        margin-left: 10px;
+        color:rgb(51, 38, 51)
+    
+    }
+    
+    
+    .allcard .content{
+    position: absolute;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    }
+    
+    .allcard .content .details{
+    /* padding: 40px; */
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(60px);
+    }
+    
+    .allcard .content .details h3{
+   
+        margin-left: 10px;
+        margin-bottom: 80px;
+        font-size:20px;
+        font-weight: 600;
+        color: #555;
+        line-height: 1.2em;
+    }
+    
+    .allcard .content .details h3 span{
+        font-size:18px;
+        font-weight: 400;
+        /* opacity:0.5; */
+        color: #514a52;
+    }

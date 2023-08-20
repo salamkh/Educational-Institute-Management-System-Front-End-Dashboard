@@ -1,0 +1,172 @@
+.myMap {
+    height: 100vh;
+}
+
+.sec_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-top: 50px;
+    color:#232730
+}
+
+.sec_card {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url("../../img/undraw_live_collaboration_re_60ha (1).svg") center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+}
+
+.sec2 {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/undraw_calculator_re_alsc (2).svg') center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec3 {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/undraw_pay_online_re_aqe6 (1).svg');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec4 {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/undraw_discount_d-4-bd (1).svg');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec5 {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/undraw_send_gift_re_t5ni (1).svg');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec6 {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/undraw_nature_m5ll.svg');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec7 {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/accounting/undraw_quiz_re_aol4.svg');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec_card:hover,
+.sec2:hover,
+.sec3:hover,.sec4:hover,.sec5:hover,.sec6:hover {
+
+    transition: 0.5s ease-in-out;
+    text-overflow: clip;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+
+
+.sec_content {
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+  
+
+
+}
+
+.sec_content_no {
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    left: 10px;
+
+}
+
+.sec_content h2,
+.sec_content_no h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    top: 0;
+    right: 0;
+}
+
+.sec_content h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+    top: 0;
+    right: 0;
+}

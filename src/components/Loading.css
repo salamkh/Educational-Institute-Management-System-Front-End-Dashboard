@@ -1,0 +1,112 @@
+   .loadModal {
+       visibility: hidden;
+       z-index: -70;
+   }
+
+
+
+   .loadContainer {
+       position: absolute;
+       left: 30%;
+       top: 40%;
+       height: 100px;
+       width: 100px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background: #e4e1e1;
+       z-index: 300;
+       box-shadow: 0px 0 15px rgb(105, 55, 74);
+       border-radius: 20px;
+
+
+   }
+
+
+   .loader {
+       text-align: center;
+       vertical-align: middle;
+       position: relative;
+       display: flex;
+       background: transparent;
+       /* padding: 150px; */
+       /* box-shadow: 0px 0 15px rgb(105, 55, 74); */
+       border-radius: 20px;
+       /* margin-top:5%; */
+       /* margin-left: 40px; */
+
+   }
+
+   .loader span {
+       display: block;
+       width: 20px;
+       height: 20px;
+       background: rgb(73, 130, 206);
+       border-radius: 50%;
+       margin: 0 5px;
+       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+   }
+
+   .loader span:nth-child(2) {
+       background: #76c5e9;
+   }
+
+   .loader span:nth-child(3) {
+       background: #9faebb;
+   }
+
+   .loader span:nth-child(4) {
+       background: #286d8d;
+   }
+
+   .loader span:not(:last-child) {
+       animation: animate 1.5s linear infinite;
+   }
+
+   @keyframes animate {
+       0% {
+           transform: translateX(0);
+       }
+
+       100% {
+           transform: translateX(30px);
+       }
+   }
+
+   .loader span:last-child {
+       animation: jump 1.5s ease-in-out infinite;
+   }
+
+   @keyframes jump {
+       0% {
+           transform: translate(0, 0);
+       }
+
+       10% {
+           transform: translate(10px, -10px);
+       }
+
+       20% {
+           transform: translate(20px, 10px);
+       }
+
+       30% {
+           transform: translate(30px, -50px);
+       }
+
+       70% {
+           transform: translate(-150px, -50px);
+       }
+
+       80% {
+           transform: translate(-140px, 10px);
+       }
+
+       90% {
+           transform: translate(-130px, -10px);
+       }
+
+       100% {
+           transform: translate(-120px, 0);
+       }
+   }

@@ -1,0 +1,27 @@
+.PayDiv{
+    width: 200px;
+    height: 100px;
+    z-index: 15;
+    border-radius: 8px;
+    box-shadow: 0px 0 7px #124861;
+    position: relative;
+color: #446675;
+}
+
+.payContent{
+    margin: auto;
+    margin-top: 8%;
+    margin-right: 10%;
+    position: absolute;
+}
+
+.payContent h4{
+    color: rgb(38, 34, 40);
+    font-size: 18px;
+    /* margin-top: 5%; */
+}
+.tableTitle{
+    font-size: 25px;
+    color: rgb(53, 82, 105);
+    margin-bottom: 1%;
+}

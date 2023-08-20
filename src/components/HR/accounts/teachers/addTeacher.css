@@ -1,0 +1,107 @@
+.containerAddTeacherAuto {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    /* margin: auto; */
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+    margin-top: 5%;
+    overflow: auto;
+    margin-right:10%;
+    direction: ltr;
+
+}
+
+.picRight {
+    background: linear-gradient(#245268, #3095C3);
+    height: 750px;
+}
+
+.input-field-user {
+    background: white;
+    width: 150px;
+    height: 25px;
+    margin-top: 2px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    border-radius: 55px;
+    display: flex;
+    padding: 0.4rem;
+    /* border: solid 2px rgba(52, 23, 71, 0.7); */
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+}
+
+.input-field-user-left {
+    background: white;
+    width: 150px;
+    height: 25px;
+    margin-top: 2px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    border-radius: 55px;
+    display: flex;
+    padding: 0.4rem;
+    border: solid 0.5px rgba(52, 23, 71, 0.5);
+    /* box-shadow: 5px 5px 5px rgba(52, 23, 71, 0.5); */
+}
+
+.supIcon {
+    color: #582344;
+    margin: 10px;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.input-field-user input,
+.input-field-user-left input {
+    background: none;
+    width: 100px;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #817b7b;
+    direction: rtl;
+
+}
+
+.input-field-user input:hover {
+    border-color: #afadad;
+    cursor: pointer;
+}
+
+.label_user_div {
+    margin-left: 120px;
+    /* margin-top: 30px; */
+}
+
+.label_user_div-left {
+    margin-left: 120px;
+    margin-top: 30px;
+    color: #384153;
+}
+
+.label_user_accountT {
+    color: rgb(177, 194, 211);
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.label_user_left_accountT {
+    color: #384153;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.input-field-user input::placeholder {
+    color: #817b7b;
+
+
+}

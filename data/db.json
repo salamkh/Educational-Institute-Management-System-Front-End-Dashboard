@@ -1,0 +1,23 @@
+{
+    "blogs":[
+        {
+            "name":"Najma AlTair",
+            "university":"ITE",
+            "year":2021,
+            "id":1
+        },
+        {
+            "name":"Islam AlTair",
+            "university":"SE",
+            "year":2022,
+            "id":2
+        },
+        {
+            "name":"Alma",
+            "university":"Pharmest",
+            "year":2024,
+            "id":3
+        }
+        
+    ]
+}

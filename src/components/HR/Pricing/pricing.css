@@ -1,0 +1,137 @@
+.divLeftStd {
+    width: 100%;
+    /* box-shadow: 0px 0px 15px rgba(52, 23, 71, 0.5); */
+    border: 1px solid rgb(100, 117, 147);
+    border-radius: 20px;
+    height: 500px;
+}
+
+.stdItem {
+    margin: 10px;
+}
+
+.divContainerStd {
+    overflow: auto;
+}
+
+.lineLeftstd {
+
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: #8fadbc;
+    border-radius: 5px;
+    color: rgb(33, 70, 93);
+}
+
+.stdItem span {
+    color: rgb(91, 54, 146);
+    font-size: 20px;
+    color: #5d6770;
+}
+
+.containerItemFieldSTD {
+    width: 100%;
+    padding: 8px;
+    border-top: 2px solid #868c93;
+    border-bottom: 2px solid #868c93;
+    border-radius: 10px;
+    /* box-shadow: 0px 0 7px #6d4480; */
+    z-index: 15;
+    margin-bottom: 10px;
+    color: #51677c;
+
+}
+
+.reportModal h3 {
+    color: #5d7283;
+    font-size: 30px;
+}
+
+.divModHeader {
+    margin: auto;
+    margin-right: 40%;
+}
+
+.divModHeader h5 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #51677c;
+}
+
+.divModBody p {
+    color: #333;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.divModBody span {
+    color: #455360;
+
+}
+
+.reportModal {
+    direction: rtl;
+
+}
+
+.buttonPrice {
+
+    border: none;
+    background-color: white;
+    color: rgb(66, 75, 88);
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    /* margin-top: 30px; */
+    font-size: 22px;
+   
+    border-bottom: 3px solid #6891b3;
+
+}
+
+.buttonPrice:hover {
+    background-color: whitesmoke;
+}
+
+.domainContainer {
+    width: 100%;
+    height: 250px;
+    overflow: auto;
+    padding: 8px;
+    /* border-top: 3px solid #6985a5;
+    border-bottom: 3px solid #6985a5; */
+    border-radius: 10px;
+    box-shadow: 0px 0 2px #6d4480;
+    z-index: 15;
+    margin-bottom: 10px;
+    color: #51677c;
+    color: #365669;
+
+}
+
+.lineDomain{
+    margin-top: 20px;
+    width: 100%;
+    height: 2px;
+    margin: 10px auto;
+    background: #1c6488;
+    border-radius: 5px;
+color: #39434e;
+}
+
+.downBottom{
+    color: #39434e;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.divAddDomain{
+    width: 100%;
+    border-radius: 8px;
+  
+    
+}

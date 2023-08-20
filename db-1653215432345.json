@@ -1,0 +1,19 @@
+{
+  "unis": [
+    {
+      "id": 1,
+      "university_name": " دمشق  ",
+      "img": ""
+    },
+    {
+      "id": 2,
+      "university_name": " تشرين  ",
+      "img": ""
+    },
+    {
+      "id": 3,
+      "university_name": " البعث  ",
+      "img": ""
+    }
+  ]
+}

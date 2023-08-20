@@ -1,0 +1,19 @@
+.bar {
+    color: rgb(165, 61, 179)
+}
+
+.imgBar {
+    position: absolute;
+    height: 40px;
+    width: 30px;
+    left: 200px
+}
+
+.spanBar {
+    position: absolute;
+    font-weight: 550;
+    font-size: 18px;
+    color: rgb(36, 40, 43);
+    left: 20px;
+    top: 10px;
+}

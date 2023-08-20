@@ -1,0 +1,63 @@
+.myMap {
+    height: 100vh;
+}
+
+.sec_containerCard {
+   direction: rtl;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-top: 50px;
+    display: flex;
+    color:#232730
+}
+
+.sec_cardCard {
+   
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+}
+
+.headCard{
+    direction: rtl;
+    margin-right: 10px;
+    margin-top: 5%;
+}
+
+
+
+
+.sec_cardCard:hover{
+
+    transition: 0.5s ease-in-out;
+    text-overflow: clip;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+
+
+.sec_contentCard {
+  
+    padding: 5px;
+ 
+
+
+}
+
+
+.sec_contentCard h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+    top: 0;
+    right: 0;
+}

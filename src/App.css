@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.myApp {
+    width: 100vw;
+    height: 100vh;
+    color: rgb(194, 177, 211)
+}
+
+.myLogin {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#245268, #3095C3)
+        /* background: url('../../img/undraw_team_work_k-80-m.svg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.sections {
+
+    height: calc(100vh - 70px);
+    position: relative;
+    top: 70px;
+    margin-bottom: 50px;
+
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+}
+
+a {
+    color: #555;
+    text-decoration-line: underline;
+}
+
+.newButton {
+    height: 40px;
+    width: 100px;
+    background-color: #49a7d3;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.conTableHR {
+    height: 400px !important;
+    overflow: auto !important;
+    width: 100% !important;
+    margin-top: 40px !important;
+  
+
+}
+
+
+span{
+    font-size: 20px !important;
+    /* color: #799da5; */
+}

@@ -1,0 +1,202 @@
+.containerProfile {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-right: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+    margin-top: 50px;
+    overflow: auto;
+    
+
+}
+
+.topDivCover{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: url("../../../img/profile_user.png") center center;
+    background-size: cover;
+}
+
+.contentDivCover{
+    position: absolute;
+    top:200px;
+    width: 100%;
+    margin-right: 40px;
+}
+
+.spanInfoProfile{
+    color:rgb(57, 40, 71);
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+
+.spanInfoProfile p{
+    color:rgb(57, 40, 71);  
+}
+
+.spanInfoProfile span{
+color:rgb(75, 74, 74)
+}
+
+.picRightProfile {
+    background: white ;
+    background-size: cover;
+    height: 500px;
+    border-left: #3095C3;
+}
+.picProfile{
+    width:100%;
+    height: 100%;
+    /* object-fit: cover; */
+    
+}
+
+.sec_content_profile {
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+}
+
+.sec_card_profile {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    background: url("../../../img/undraw_live_collaboration_re_60ha (1).svg") center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+    margin-right: 5%;
+    
+}
+.sec_card_profile_1.hover,.sec_card_profile_2.hover,.sec_card_profile_6.hover,
+.sec_card_profile_3.hover,.sec_card_profile_5 .hover,.sec_card_profile_4.hover
+{
+    transform: scale(1.1);
+}
+.sec_card_profile_1 {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    background: url("../../../img/undraw_pay_online_re_aqe6 (1).svg") center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+    margin-right: 5%;
+
+    
+}
+.sec_card_profile_2 {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    background: url("../../../img/undraw_discount_d-4-bd (1).svg") center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+    margin-right: 5%;
+
+    
+}
+
+.sec_card_profile_6 {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    background: url("../../../img/undraw_send_gift_re_t5ni (1).svg") center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+    margin-right: 5%;
+
+    
+}
+.sec_card_profile_3 {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    background: url("../../../img/undraw_nature_m5ll.svg") center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+    margin-right: 5%;
+
+    
+}
+.sec_card_profile_4 {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    background: url('../../../img/undraw_calculator_re_alsc (2).svg') center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+    
+}
+.sec_card_profile_5 {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    background: url("../../../img/undraw_live_collaboration_re_60ha (2).svg") center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+    margin-right: 5%;
+
+    
+}
+.sec_content_no {
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    left: 10px;
+}
+
+.imgAccountProfile{
+    width: 100%;
+    height: 500px;
+}

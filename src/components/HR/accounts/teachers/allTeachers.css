@@ -1,0 +1,82 @@
+.tcard{
+    position: relative;
+    width: 250px;
+    height:250px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px rgba(141, 10, 141, 0.5);
+    transition: 0.5s;
+    margin-bottom:70px;
+    }
+    
+    /* .tcard:hover{
+    height: 350px;
+    } */
+    
+    .teacherBox{
+    position:absolute;
+    width: 50%;
+    height: 110px;
+    left: 50%;
+    top:-50px;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px rgba(191, 17, 214, 0.35);
+    overflow: hidden;
+    background: url('../../../../img/360_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg') center center;
+    background-size: cover;
+    
+    }
+/*     
+    .tcard:hover .tBox{
+        width: 70%;
+        height: 200px;
+    } */
+    
+    
+    
+    .tBox .imTec{
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+    
+    }
+    
+    
+    .tcard .content{
+    position: absolute;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    }
+    
+    .tcard .content .details{
+    /* padding: 40px; */
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(60px);
+    }
+    
+    .tcard .content .details h3{
+   
+        margin-left: 10px;
+        margin-bottom: 80px;
+        font-size:20px;
+        font-weight: 600;
+        color: #555;
+        line-height: 1.2em;
+    }
+    
+    .tcard .content .details h3 span{
+        font-size:18px;
+        font-weight: 400;
+        /* opacity:0.5; */
+        color: #514a52;
+    }

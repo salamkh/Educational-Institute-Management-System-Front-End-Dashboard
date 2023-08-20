@@ -1,0 +1,93 @@
+.myMap {
+    height: 100vh;
+}
+
+.imgAccountDiv{
+    margin-top: 50px;
+    width:50%;
+    height: 70px;
+    margin-right: 20%;
+}
+
+.imgAccount  {
+    margin-top: 70px;
+  width: 100%;
+  height: 500px;
+  
+
+}
+
+.sec_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-top: 5px;
+    color:#232730;
+    
+}
+
+.sec_card_accounts {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    margin: 30px;
+    background: url("../../../img/undraw_working_re_ddwy (1).svg") center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+}
+
+.sec2_accounts {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../../img/undraw_teaching_re_g7e3.svg') center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+
+
+.sec_card_accounts:hover,
+.sec2_accounts:hover {
+
+    transition: 0.5s ease-in-out;
+    text-overflow: clip;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(165, 22, 179, 0.5);
+
+}
+
+
+
+.sec_content_accounts {
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+  
+
+
+}
+
+.sec_content_accounts h3 {
+    font-size: 20px;
+    font-weight: 550;
+    color: #333;
+    top: 0;
+    right: 0;
+}
+

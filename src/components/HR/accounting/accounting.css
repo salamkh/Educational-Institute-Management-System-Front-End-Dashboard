@@ -1,0 +1,157 @@
+.myMap {
+    height: 100vh;
+}
+
+.sec_container_fin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-top: 50px;
+    color:#232730
+}
+
+.sec_card_fin {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url("../../img/accounting/undraw_financial_data_re_p0fl.svg") center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+}
+
+.sec2_fin {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/undraw_calculator_re_alsc (2).svg') center center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec3_fin {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/accounting/undraw_payments_re_77x0.svg');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec4_fin {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/accounting/undraw_finance_re_gnv2.svg');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec5_fin {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/accounting/undraw_revenue_re_2bmg.svg');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec6_fin {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: url('../../img/undraw_nature_m5ll.svg');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+.sec_card_fin:hover,
+.sec2_fin:hover,
+.sec3_fin:hover,.sec4_fin:hover,
+.sec5_fin:hover,.sec6_fin:hover {
+
+    transition: 0.5s ease-in-out;
+    text-overflow: clip;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(52, 23, 71, 0.5);
+
+}
+
+
+
+.sec_content_fin {
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    background-color: white;
+  
+
+
+}
+
+.sec_content_no_fin {
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    left: 10px;
+
+}
+
+.sec_content_fin h2,
+.sec_content_no_fin h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    top: 0;
+    right: 0;
+}
+
+.sec_content_fin h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+    top: 0;
+    right: 0;
+}

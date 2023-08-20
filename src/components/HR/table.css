@@ -1,0 +1,38 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    /* 
+    margin-top:40px;
+    margin-left:20%; */
+    width: 100%;
+    direction:rtl;
+  }
+  
+  #customers td, #customers th {
+    /* border: 1px solid #ddd; */
+    padding: 12px;
+    color:#333;
+    height: 20px;
+  }
+  
+  #customers tr:nth-child(odd){background-color: #eaeeee;}
+  
+  #customers tr:hover {background-color: #f1eef1;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: right;
+    background-color: #577b8b;
+    color: white;
+   
+  
+  }
+
+  #customers #first{
+    border-top-right-radius: 20px;
+  }
+
+  #customers #last{
+    border-top-left-radius: 20px;
+  }
